@@ -23,23 +23,21 @@ const greeting = {
   username: "Anay Baid",
   title: "Hola, I'm Anay Baid",
   subTitle: emoji(
-    "I'm currently studying Computer Science at the University of Waterloo."
+    "I am deeply passionate about software development and continuously strive to stay up-to-date with the latest advancements in technology."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://anay-baid-resume.tiiny.site/", // Set to empty to hide the button, and make this updated!!/
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/anaybaid7",
+  linkedin: "https://www.linkedin.com/in/anaybaid/",
+  gmail: "anaybaid7@gmail.com",
+  gitlab: "https://gitlab.com/anaybaid",
+  stackoverflow: "https://stackoverflow.com/users/14184424/anay-baid",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -48,15 +46,15 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "Overview",
+  subTitle: "Hi there, I'm Anay Baid, currently pursuing my degree in Computer Science at the UWaterloo",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Throughout my academic journey, I've been deeply immersed in the realms of data engineering and software development, continually expanding my skill set and knowledge base"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ During my internships, I've had the privilege of engaging in hands-on projects that have allowed me to sharpen my abilities in crucial areas such as data analysis and system optimization"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ I'm genuinely eager to leverage my experiences and capabilities to make meaningful contributions to your projects. Let's connect and discuss how I can be an asset to your team!"
     )
   ],
 
@@ -126,25 +124,15 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
+      schoolName: "University of Waterloo",
       logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      subHeader: "Bachelor of Mathematics & Computer Science",
+      duration: "September 2022 - April 2027",
+      desc: "Minoring in Combinatorics and Optimisation",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Delivered academic support for CS 135 (Designing Functional Programs), addressing technical queries and coordinating tutoring sessions.",
+        "Successfully managed the mentorship program for 150+ participants, coordinated 10+ events, led 3 DEI Community Events with 500+ participants, and distributed tech resources to enhance proficiency for 200+ under-represented individuals."
       ]
-    },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
-    }
-  ]
 };
 
 // Your top 3 proficient stacks/tech experience
@@ -153,7 +141,7 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
+      Stack: "Frontend / Design", //Insert stack or technology you have experience in
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
@@ -174,29 +162,32 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
+      role: "Data Engineering & Analysis",
+      company: "Cineplex Entertainment LP",
       companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      date: "January 2024 – April 2024",
+      desc: "Part of the BI & Analytics, Azure DevOps, Data Analytics & Engineering Teams.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Performed comprehensive data quality assessments across multiple datasets, resolving over 200 anomalies through rigorous testing and collaborative problem-solving.",
+        "Validated of 10TB data to Azure, ensuring 99% data integrity and automated data reporting workflows, reducing report generation time by 70%.",
+        "Improved show-time optimization ML algorithm by 15% through model evaluations, fine-tuning, and data validation.",
+        "Implemented data governance protocols via a coding management project implementing SQL Schema Compare and Git tools through Python shell scripting, achieving 100% compliance with industry standards.",
+        "Developed custom data cube connections on the Cineplex Homepage Dashboard Power BI report, ran multiple testing scripts, & enhanced box office records displays via comprehensive data incident validation & tracking."
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
+      role: "Software Administration Intern",
+      company: "Alterra Mountain Company",
       companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      date: "June 2023 – September 2023",
+      desc: "Implemented a Management System with Cenium 9, for a 20% reduction in check-in time via data streamlining, Enhanced the existing database scalability to handle 10,000+ guest records, achieving a 30% faster data retrieval in Tapechart via optimized indexing and independently utilized Power BI for generating monthly reports, identifying upsell opportunities and driving a 15% revenue increase through data insights."
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
+      role: "Frontend Developer & Data Science Intern",
+      company: "Nytia Health",
       companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      date: "May 2023 – June 2023",
+      desc: "Integrated libraries TensorFlow & Scikit-learn into Android watches, optimized data processing & efficiency by 20%, Leveraged Python and R with the Google BigQuery API, achieving a data processing rate of 1.5 Mbps, Developed real-time data visualization dashboards from A/B testing using Tableau, streamlining decision-making processes by 30%."
     }
   ]
 };
@@ -372,8 +363,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+226 - 899 - 8462",
+  email_address: "anay.baid@uwaterloo.ca"
 };
 
 // Twitter Section
