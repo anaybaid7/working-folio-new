@@ -133,6 +133,7 @@ const educationInfo = {
         "Delivered academic support for CS 135 (Designing Functional Programs), addressing technical queries and coordinating tutoring sessions.",
         "Successfully managed the mentorship program for 150+ participants, coordinated 10+ events, led 3 DEI Community Events with 500+ participants, and distributed tech resources to enhance proficiency for 200+ under-represented individuals."
       ]
+    }
 };
 
 // Your top 3 proficient stacks/tech experience
