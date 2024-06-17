@@ -1,16 +1,7 @@
 # Software Developer Folio ⚡️ [![GitHub](https://img.shields.io/github/license/saadpasta/developer-portfolio?color=blue)](https://github.com/saadpasta/developerFolio/blob/master/LICENSE) [![GitHub stars](https://img.shields.io/github/stars/saadpasta/developerFolio)](https://github.com/saadpasta/developerFolio/stargazers)  [![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors)
 
 ## A clean, beautiful and responsive portfolio template for Developers!
-
-
-<p align="center">
-  <kbd>
-<img src="https://user-images.githubusercontent.com/53429438/106779355-e9cd9e80-666c-11eb-9417-8a4b54441bc6.gif"></img>
-  </kbd>
-</p>
-
-
-Just change `src/portfolio.js` to get your personal portfolio. Customize portfolio theme by using your own color scheme globally in the  `src/_globalColor.scss` file. Feel free to use it as-is or personalize it as much as you want.
+<img width="1278" alt="Screenshot 2024-06-16 at 8 54 03 PM" src="https://github.com/anaybaid7/working-folio-new/assets/72332988/fef03d78-a38b-417c-9178-ab450c88b9b2">
 
 If you'd like to **contribute** and make this much better for other users, have a look at [Issues](https://github.com/saadpasta/developerFolio/issues).
 
