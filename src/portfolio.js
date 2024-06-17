@@ -27,7 +27,7 @@ const greeting = {
   ),
   resumeLink:
     "https://anay-baid-resume.tiiny.site/", // Set to empty to hide the button, and make this updated!!/
-  displayGreeting: false // Set false to hide this section, defaults to true
+  displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
