@@ -21,7 +21,7 @@ const illustration = {
 
 const greeting = {
   username: "Anay Baid",
-  title: "Hi there, I'm Anay Baid",
+  title: "Hey! I'm Anay Baid",
   subTitle: emoji(
     "I am deeply passionate about software development and continuously strive to stay up-to-date with the latest advancements in technology."
   ),
@@ -71,10 +71,6 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
@@ -85,10 +81,6 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
     },
     {
       skillName: "npm",
@@ -125,7 +117,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "University of Waterloo",
-      logo: require("./assets/images/harvardLogo.png"),
+      logo: require("./assets/images/uwaterloo.png"),
       subHeader: "Bachelor of Mathematics & Computer Science",
       duration: "September 2022 - April 2027",
       desc: "Minoring in Combinatorics and Optimisation",
