@@ -199,28 +199,28 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "Here are some notable Hackathons / Side Projects in which I had been involved in development",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/mern.png"),
+      projectName: "MERN Store Gold - E-commerce Site",
+      projectDesc: "An ecommerce store built with MERN stack, and utilizes third party APIs.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "View Project",
+          url: "https://github.com/anaybaid7/mern-project-ecommerce"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/pashu.png"),
+      projectName: "HackWestern - Best Gaming Hack (Pashu)",
+      projectDesc: "The game is built with Unity game engine, and runs on WebGL, utilizing the power of Wix Velo.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "View Hackathon Submission",
+          url: "https://devpost.com/software/animal-shelter-fubsrh"
         }
       ]
     }
