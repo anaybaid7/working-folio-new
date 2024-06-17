@@ -1,4 +1,4 @@
-# Software Developer Folio ⚡️ [![GitHub](https://img.shields.io/github/license/saadpasta/developer-portfolio?color=blue)](https://github.com/saadpasta/developerFolio/blob/master/LICENSE) [![GitHub stars](https://img.shields.io/github/stars/saadpasta/developerFolio)](https://github.com/saadpasta/developerFolio/stargazers)  [![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors)
+# Software Developer Porffolio [![GitHub](https://img.shields.io/github/license/saadpasta/developer-portfolio?color=blue)](https://github.com/saadpasta/developerFolio/blob/master/LICENSE) [![GitHub stars](https://img.shields.io/github/stars/saadpasta/developerFolio)](https://github.com/saadpasta/developerFolio/stargazers)  [![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors)
 
 ## A clean, beautiful and responsive portfolio template for Developers!
 <img width="1278" alt="Screenshot 2024-06-16 at 8 54 03 PM" src="https://github.com/anaybaid7/working-folio-new/assets/72332988/fef03d78-a38b-417c-9178-ab450c88b9b2">
@@ -34,9 +34,6 @@ Created something awesome for your fork of the portfolio and want to share it? F
 ✔️ Contact me\
 ✔️ Twitter Timeline\
 ✔️ GitHub Profile
-
-To view a live example, **[click here](https://developerfolio.js.org/)**.
-
 
 ## Getting Started
 
@@ -80,26 +77,6 @@ npm install
 
 # Start a local dev server
 npm start
-```
-
-## Linking Portfolio to GitHub
-
-Generate a classic GitHub personal access token following these [instructions](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token#creating-a-personal-access-token-classic) (make sure you don't select any scope just generate a simple token). If you are using [GitHub Actions](#configuring-github-actions-recommended) to deploy your portfolio you can skip this section.
-
-1. Create a file called .env in the root directory of your project (if not done already in section: [How To Use](#how-to-use))
-
-Note: Configuring environment variables before deploying your portfolio is highly recommended as some components depend on API data. 
-
-```bash
-- DeveloperFolio
-  - node_modules
-  - public
-  - src
-  - .env         <-- create it here
-  - env.example  <-- this is the base file
-  - .gitignore
-  - package-lock.json
-  - package.json
 ```
 
 2. Inside the .env file, add key `REACT_APP_GITHUB_TOKEN` and assign your GitHub token like this, also add your username as `GITHUB_USERNAME`
@@ -211,27 +188,6 @@ First you should enable, GitHub Actions for the repository you use.
 The Profile and the Repository information from GitHub is only created at the time of deploy and the site needs to be redeployed if those information needs to be updated. So, a configurable [CRON Job](https://docs.github.com/en/actions/reference/events-that-trigger-workflows#scheduled-events) is setup which deploys your site every week, so that once you update your profile on GitHub it is shown on your portfolio. You can also trigger it manually using `workflow_dispatch` event, see [this guide](https://github.blog/changelog/2020-07-06-github-actions-manual-triggers-with-workflow_dispatch) on how to do that.
 
 - When you are done with the configuration, we highly recommend to read through the [GitHub Actions Configuring a workflow](https://docs.github.com/en/actions/configuring-and-managing-workflows/configuring-a-workflow) docs.
-
-#### Deploying to GitHub Pages
-
-This section guides you to deploy your portfolio on GitHub pages.
-
-- Navigate to `package.json` and enter your domain name instead of `https://developerfolio.js.org/` in `homepage` variable. For example, if you want your site to be `https://<your-username>.github.io/developerFolio`, add the same to the homepage section of `package.json`.
-
-- In short you can also add `/devloperFolio` to `package.json` as both are exactly same. Upon doing so, you tell `create-react-app` to add the path assets accordingly.
-
-- Optionally, configure the domain. You can configure a custom domain with GitHub Pages by adding a `CNAME` file to the `public/` folder.
-
-- Follow through the guide to setup GitHub pages from the official CRA docs [here](https://create-react-app.dev/docs/deployment/#github-pages).
-
-#### Deploying to Netlify
-
-You could also host directly with Netlify by linking your own repository.
-
-[![Deploy To Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/saadpasta/developerFolio)
-
-For more information, read [hosting on Netlify](https://create-react-app.dev/docs/deployment/#netlify).
-
 
 ## Technologies Used 
 
