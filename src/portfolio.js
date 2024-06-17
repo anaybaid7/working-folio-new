@@ -21,7 +21,7 @@ const illustration = {
 
 const greeting = {
   username: "Anay Baid",
-  title: "Hola, I'm Anay Baid",
+  title: "Hi there, I'm Anay Baid",
   subTitle: emoji(
     "I am deeply passionate about software development and continuously strive to stay up-to-date with the latest advancements in technology."
   ),
@@ -242,7 +242,7 @@ const bigProjects = {
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "My Achievements and Certifications",
 
   achievementsCards: [
     {
@@ -294,7 +294,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -302,20 +302,20 @@ const achievementSection = {
 const blogSection = {
   title: "Blogs",
   subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
+    "Here is some of my work on my technical learnings on topics I have been most interested in, a few involving Aviation as well.",
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      url: "https://medium.com/@anaybaid7/revolutionizing-zero-shot-learning-with-nlp-and-cv-a-breakthrough-in-artificial-intelligence-ai-e2a6dfa1b6e8",
+      title: "Revolutionizing Zero-Shot Learning with NLP and CV: A Breakthrough in Artificial Intelligence (AI)",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+        "In the ever-evolving landscape of artificial intelligence, researchers and developers are constantly pushing the boundaries of what machines can achieve. One remarkable breakthrough that has garnered attention recently is the fusion of Natural Language Processing (NLP) and Computer Vision (CV) to achieve Zero-Shot Learning with state-of-the-art (SOTA) performance."
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
+      url: "https://medium.com/@anaybaid7/chaos-in-the-cockpit-air-france-flight-447-b94358c2ac25",
+      title: "Chaos in the Cockpit: Air France Flight 447",
       description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+        "Aeroplanes are modern and sophisticated instruments; they are a wild mix of complex electrical circuits and seemingly endless knobs and switches, that perform the wonder of transporting us over very long distances in an “instant”. With significant advancements in modern technology, tracking them becomes an extremely routine task. The very idea of an aircraft going missing in the 21st Century is bewildering and unthinkable. But this is precisely what happened to an Airbus A330, flying in the middle of the Atlantic in the middle of the night."
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -326,7 +326,7 @@ const blogSection = {
 const talkSection = {
   title: "TALKS",
   subtitle: emoji(
-    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
+    "Coming Soon!"
   ),
 
   talks: [
@@ -337,18 +337,18 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
 
 const podcastSection = {
-  title: emoji("Podcast 🎙️"),
-  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
+  title: emoji("YouTube - Music and Leetcode 🎥"),
+  subtitle: "This is a space where I discuss solutions to popular leetcode problems and share my work in percussion music",
 
   // Please Provide with Your Podcast embeded Link
   podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
+    "https://www.youtube.com/channel/UCJ7bgAzmTFFWvLlbV7Oiojw"
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -356,7 +356,7 @@ const podcastSection = {
 // Resume Section
 const resumeSection = {
   title: "Resume",
-  subtitle: "Feel free to download my resume",
+  subtitle: "View my Resume here!",
 
   // Please Provide with Your Podcast embeded Link
   display: true // Set false to hide this section, defaults to true
@@ -365,7 +365,7 @@ const resumeSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
+    "Would love to discuss projects and meet new people! Feel free to reach out to me and I will get back to you!", 
   number: "+226 - 899 - 8462",
   email_address: "anay.baid@uwaterloo.ca"
 };
@@ -373,7 +373,7 @@ const contactInfo = {
 // Twitter Section
 
 const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
+  userName: "AnayBaid", //Replace "twitter" with your twitter username without @
   display: true // Set true to display this section, defaults to false
 };
 
