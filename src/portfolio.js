@@ -159,7 +159,7 @@ const workExperiences = {
     {
       role: "Data Engineering & Analysis",
       company: "Cineplex Entertainment LP",
-      companylogo: require("./assets/images/facebookLogo.png"),
+      companylogo: require("./assets/images/cineplex.png"),
       date: "January 2024 – April 2024",
       desc: "Part of the BI & Analytics, Azure DevOps, Data Analytics & Engineering Teams.",
       descBullets: [
@@ -173,14 +173,14 @@ const workExperiences = {
     {
       role: "Software Administration Intern",
       company: "Alterra Mountain Company",
-      companylogo: require("./assets/images/quoraLogo.png"),
+      companylogo: require("./assets/images/alterra.png"),
       date: "June 2023 – September 2023",
       desc: "Implemented a Management System with Cenium 9, for a 20% reduction in check-in time via data streamlining, Enhanced the existing database scalability to handle 10,000+ guest records, achieving a 30% faster data retrieval in Tapechart via optimized indexing and independently utilized Power BI for generating monthly reports, identifying upsell opportunities and driving a 15% revenue increase through data insights."
     },
     {
       role: "Frontend Developer & Data Science Intern",
       company: "Nytia Health",
-      companylogo: require("./assets/images/airbnbLogo.png"),
+      companylogo: require("./assets/images/nytia.png"),
       date: "May 2023 – June 2023",
       desc: "Integrated libraries TensorFlow & Scikit-learn into Android watches, optimized data processing & efficiency by 20%, Leveraged Python and R with the Google BigQuery API, achieving a data processing rate of 1.5 Mbps, Developed real-time data visualization dashboards from A/B testing using Tableau, streamlining decision-making processes by 30%."
     }
