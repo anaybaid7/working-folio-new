@@ -342,7 +342,7 @@ const podcastSection = {
   podcast: [
     "https://www.youtube.com/channel/UCJ7bgAzmTFFWvLlbV7Oiojw"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -366,7 +366,7 @@ const contactInfo = {
 
 const twitterDetails = {
   userName: "AnayBaid", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
