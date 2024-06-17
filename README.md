@@ -1,4 +1,4 @@
-# Software Developer Porffolio [![GitHub](https://img.shields.io/github/license/saadpasta/developer-portfolio?color=blue)](https://github.com/saadpasta/developerFolio/blob/master/LICENSE) [![GitHub stars](https://img.shields.io/github/stars/saadpasta/developerFolio)](https://github.com/saadpasta/developerFolio/stargazers)  [![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors)
+# Software Developer Portfolio
 
 ## A clean, beautiful and responsive portfolio template for Developers!
 <img width="1278" alt="Screenshot 2024-06-16 at 8 54 03 PM" src="https://github.com/anaybaid7/working-folio-new/assets/72332988/fef03d78-a38b-417c-9178-ab450c88b9b2">
