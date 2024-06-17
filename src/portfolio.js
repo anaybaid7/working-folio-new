@@ -27,7 +27,7 @@ const greeting = {
   ),
   resumeLink:
     "https://anay-baid-resume.tiiny.site/", // Set to empty to hide the button, and make this updated!!/
-  displayGreeting: true // Set false to hide this section, defaults to true
+  displayGreeting: false // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
@@ -351,7 +351,7 @@ const resumeSection = {
   subtitle: "View my Resume here!",
 
   // Please Provide with Your Podcast embeded Link
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
