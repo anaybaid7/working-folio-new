@@ -26,7 +26,7 @@ const greeting = {
     "I'm a curious student purusing software development and continuously strive to stay up-to-date with the latest advancements in technology, a.k.a a nerd but who enjoys music too (and plays it as well)."
   ),
   resumeLink:
-    "https://anay-baid-resume.tiiny.site/", // Set to empty to hide the button, and make this updated!!/
+    "", // Set to empty to hide the button, and make this updated!!/
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
