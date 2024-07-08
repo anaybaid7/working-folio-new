@@ -3,8 +3,6 @@
 ## A clean, beautiful and responsive portfolio template for Developers!
 <img width="1278" alt="Screenshot 2024-06-16 at 8 54 03 PM" src="https://github.com/anaybaid7/working-folio-new/assets/72332988/fef03d78-a38b-417c-9178-ab450c88b9b2">
 
-If you'd like to **contribute** and make this much better for other users, have a look at [Issues](https://github.com/saadpasta/developerFolio/issues).
-
 Created something awesome for your fork of the portfolio and want to share it? Feel free to open a [pull request](https://github.com/saadpasta/developerFolio/pulls).
 
 ## Table of Contents
@@ -189,7 +187,7 @@ The Profile and the Repository information from GitHub is only created at the ti
 
 - When you are done with the configuration, we highly recommend to read through the [GitHub Actions Configuring a workflow](https://docs.github.com/en/actions/configuring-and-managing-workflows/configuring-a-workflow) docs.
 
-## Technologies Used 
+## Technologies That I used in this project 
 
 - [React](https://reactjs.org/)
 - [graphql](https://graphql.org/)
