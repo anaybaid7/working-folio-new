@@ -5,56 +5,27 @@
 
 Created something awesome for your fork of the portfolio and want to share it? Feel free to open a [pull request](https://github.com/saadpasta/developerFolio/pulls).
 
-## Table of Contents
-- [Sections](#sections)
-- [Getting Started](#getting-started)
-- [How to Use](#how-to-use)
-- [Linking portfolio to GitHub](#linking-portfolio-to-github)
-- [Linking blogs section to Medium](#linking-blogs-section-to-medium)
-- [Change and Customize](#change-and-customize-every-section-according-to-your-need)
-- [Deployment](#deployment)
-- [Technologies Used](#technologies-used)
-- [Illustrations](#illustrations)
-- [For the Future](#for-the-future)
-- [Contributors](#project-maintainers)
-
-## Portfolio Sections
-✔️ Summary and About me\
-✔️ Skills\
-✔️ Education\
-✔️ Work Experience\
-✔️ Open Source Projects Connected with GitHub\
-✔️ Big Projects\
-✔️ Achievements And Certifications 🏆\
-✔️ Blogs\
-✔️ Talks\
-✔️ Podcast\
-✔️ Contact me\
-✔️ Twitter Timeline\
-✔️ GitHub Profile
-
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+These instructions are meant to help get you a copy of the project up and running on your local machine for development and testing purposes, if need be. I hope it helps! 
 
-You'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer or use [Docker](https://www.docker.com/products/docker-desktop).
+You'll need to first get [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer or use [Docker](https://www.docker.com/products/docker-desktop).
 
 ```
 node@v10.16.0 or higher
 npm@6.9.0 or higher
 git@2.17.1 or higher
 ```
-### Docker Commands
+### Related Docker workflows: 
 
 ```
 1) BUILD IMAGE : docker build -t developerfolio:latest .
 2) RUN IMAGE: docker run -t -p 3000:3000 developerfolio:latest
 ```
 
+## How is this supposed to be used: 
 
-## How To Use 
-
-From your command line, clone and run developerFolio:
+From the command line, we have to clone and run developerFolio as follows:
 
 ```bash
 # Clone this repository
@@ -77,7 +48,7 @@ npm install
 npm start
 ```
 
-2. Inside the .env file, add key `REACT_APP_GITHUB_TOKEN` and assign your GitHub token like this, also add your username as `GITHUB_USERNAME`
+2. Inside the .env file, you have to add key `REACT_APP_GITHUB_TOKEN` and this will be assigned to your GitHub token like this, also add your username as `GITHUB_USERNAME`
 
 ```env
 // .env
@@ -88,7 +59,7 @@ USE_GITHUB_DATA = "true"
 
 Set `showGithubProfile` to true or false to show Contact Profile using GitHub, defaults to false.
 
-**Warning:** Treat your tokens like passwords and keep them secret. When working with the API, use tokens as environment variables instead of hardcoding them into your programs.
+**Warning:** Do treat your tokens like passwords and keep them secret. When working with the API, use tokens as environment variables instead of hardcoding them into your programs.
 
 Note: Open Source Projects section only show pinned items of your GitHub.
 If you are seeing something as shown below, follow these [instructions](https://docs.github.com/en/enterprise/2.13/user/articles/pinning-items-to-your-profile).
@@ -155,12 +126,6 @@ const contactInfo = { .... }
 const twitterDetails = { ... }
 
 ```
-#### Resume upload
-To upload your own resume, simply upload a pdf to `src/containers/resume` and rename the pdf to `resume.pdf`. 
-
-#### Using Emojis
-
-For adding emoji 😃 into the texts in `Portfolio.js`, use the `emoji()` function and pass the text you need as an argument. This would help in keeping emojis compatible across different browsers and platforms.
 
 #### Customize Lottie Animations
 
