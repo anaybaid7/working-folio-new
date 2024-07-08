@@ -21,9 +21,9 @@ const illustration = {
 
 const greeting = {
   username: "Anay Baid",
-  title: "Hey! I'm Anay Baid",
+  title: "Hola! I'm Anay Baid",
   subTitle: emoji(
-    "I am deeply passionate about software development and continuously strive to stay up-to-date with the latest advancements in technology."
+    "I'm a curious student purusing software development and continuously strive to stay up-to-date with the latest advancements in technology, a.k.a a nerd but who enjoys music too (and plays it as well)."
   ),
   resumeLink:
     "https://anay-baid-resume.tiiny.site/", // Set to empty to hide the button, and make this updated!!/
