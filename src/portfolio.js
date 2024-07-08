@@ -198,7 +198,7 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
+  title: "Major Projects",
   subtitle: "Here are some notable Hackathons / Side Projects in which I had been involved in development",
   projects: [
     {
@@ -232,9 +232,9 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: emoji("Achievements And Certifications: "),
   subtitle:
-    "My Achievements and Certifications",
+    "Related Achievements",
 
   achievementsCards: [
     {
