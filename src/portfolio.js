@@ -21,7 +21,7 @@ const illustration = {
 
 const greeting = {
   username: "Anay Baid",
-  title: "Hola! I'm Anay Baid",
+  title: "Hi! I'm Anay Baid",
   subTitle: emoji(
     "I'm a curious student purusing software development and continuously strive to stay up-to-date with the latest advancements in technology, a.k.a a nerd but who enjoys music too (and plays it as well)."
   ),
@@ -198,8 +198,8 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Major Projects",
-  subtitle: "Here are some notable Hackathons / Side Projects in which I had been involved in development",
+  title: "Major Projects & Hackathons",
+  subtitle: "",
   projects: [
     {
       image: require("./assets/images/mern.png"),
