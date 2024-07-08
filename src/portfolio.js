@@ -294,7 +294,7 @@ const achievementSection = {
 const blogSection = {
   title: "Blogs",
   subtitle:
-    "Here is some of my work on my technical learnings on topics I have been most interested in, a few involving Aviation as well.",
+    "",
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
@@ -357,7 +357,7 @@ const resumeSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Would love to discuss projects and meet new people! Feel free to reach out to me and I will get back to you!", 
+    "", 
   number: "+226 - 899 - 8462",
   email_address: "anay.baid@uwaterloo.ca"
 };
